@@ -17,5 +17,6 @@ Følge metoder benyttes til at udføre CRUD APIs.
 
 | Method | Url                                   | Beskrivelse                     |
 |--------|---------------------------------------|---------------------------------|
-| GET    | /cykelhold                            | Hent alle cykelhold             |                                                 |                      |
-| GET    | /cykelhold/{teamid}                   | hent cykelhold ud fra teamId    |                                                 |                      |
+| GET    | /cykelhold                            | Hent alle cykelhold             |                                                                      
+| GET    | /cykelhold/{teamid}                   | hent cykelhold ud fra teamId    |                                              
+|        |                                                                         |
