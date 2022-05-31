@@ -1,5 +1,6 @@
 package com.example.backend.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -23,5 +24,6 @@ public class Cykelhold {
 
     @OneToMany
     @JoinColumn(name = "teamId")
+    @JsonBackReference
     private Set<Cykelrytter> cykelryttere = new HashSet<>();
 }

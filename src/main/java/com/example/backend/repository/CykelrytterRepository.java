@@ -14,7 +14,7 @@ public interface CykelrytterRepository extends JpaRepository<Cykelrytter, Intege
 
     List<Cykelrytter>getCykelrytterByCykelhold(Cykelhold cykelhold);
 
-
+    List<Cykelrytter>getAllBySamlettidNotNullOrderBySamlettid();
 
 }
 

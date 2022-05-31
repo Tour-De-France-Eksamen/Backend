@@ -29,6 +29,11 @@ public class CykelrytterController {
         return cykelrytterRepository.findAll();
     }
 
+    @GetMapping("/cykelrytter/orden")
+    public List<Cykelrytter> getAllCykelryttereByTid() {
+        return cykelrytterRepository.getAllBySamlettidNotNullOrderBySamlettid();
+    }
+
     @GetMapping("/cykelrytter/{cykelrytterId}")
     public Cykelrytter getCykelrytter(@PathVariable Integer cykelrytterId){
         return cykelrytterRepository.findById(cykelrytterId).get();

@@ -22,7 +22,6 @@ public class Cykelrytter {
 
     @ManyToOne
     @JoinColumn(name= "teamId")
-    @JsonBackReference
     private Cykelhold cykelhold;
     private String navn;
     private String nationalitet;
