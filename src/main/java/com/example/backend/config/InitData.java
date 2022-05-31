@@ -150,7 +150,7 @@ public class InitData implements CommandLineRunner {
         cykelrytter12.setAlder(32);
         cykelrytter12.setNationalitet("Danmark");
         cykelrytter12.setSamlettid(10131);
-        cykelrytter12.setBjergpoint(10);
+        cykelrytter12.setBjergpoint(8);
         cykelrytter12.setSpurtpoint(6);
         cykelrytterRepository.save(cykelrytter12);
 
@@ -270,8 +270,8 @@ public class InitData implements CommandLineRunner {
         cykelrytter23.setAlder(30);
         cykelrytter23.setNationalitet("Danmark");
         cykelrytter23.setSamlettid(11134);
-        cykelrytter23.setBjergpoint(8);
-        cykelrytter23.setSpurtpoint(4);
+        cykelrytter23.setBjergpoint(2);
+        cykelrytter23.setSpurtpoint(10);
         cykelrytterRepository.save(cykelrytter23);
 
         Cykelrytter cykelrytter24 = new Cykelrytter();

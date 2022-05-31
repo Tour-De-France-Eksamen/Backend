@@ -34,6 +34,17 @@ public class CykelrytterController {
         return cykelrytterRepository.getAllBySamlettidNotNullOrderBySamlettid();
     }
 
+    @GetMapping("/cykelrytter/bjerg")
+    public List<Cykelrytter> getBjergtrøje() {
+        return cykelrytterRepository.getAllByBjergpointNotNullOrderByBjergpointDesc();
+    }
+
+    @GetMapping("/cykelrytter/spurt")
+    public List<Cykelrytter> getSpurttrøje() {
+        return cykelrytterRepository.getAllBySpurtpointNotNullOrderBySpurtpointDesc();
+    }
+
+
     @GetMapping("/cykelrytter/{cykelrytterId}")
     public Cykelrytter getCykelrytter(@PathVariable Integer cykelrytterId){
         return cykelrytterRepository.findById(cykelrytterId).get();
