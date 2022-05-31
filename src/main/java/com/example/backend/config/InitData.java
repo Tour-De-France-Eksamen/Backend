@@ -35,8 +35,8 @@ public class InitData implements CommandLineRunner {
         cykelrytter1.setAlder(27);
         cykelrytter1.setNationalitet("Danmark");
         cykelrytter1.setSamlettid(21415);
-        cykelrytter1.setBjergpoint(214);
-        cykelrytter1.setSpurtpoint(123);
+        cykelrytter1.setBjergpoint(10);
+        cykelrytter1.setSpurtpoint(4);
         cykelrytterRepository.save(cykelrytter1);
 
         Cykelrytter cykelrytter2 = new Cykelrytter();
@@ -44,9 +44,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter2.setNavn("Julian Alaphilippe");
         cykelrytter2.setAlder(29);
         cykelrytter2.setNationalitet("Frankrig");
-        cykelrytter2.setSamlettid(21434);
-        cykelrytter2.setBjergpoint(204);
-        cykelrytter2.setSpurtpoint(113);
+        cykelrytter2.setSamlettid(22454);
+        cykelrytter2.setBjergpoint(0);
+        cykelrytter2.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter2);
 
         Cykelrytter cykelrytter3 = new Cykelrytter();
@@ -54,9 +54,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter3.setNavn("Andrea Bagioli");
         cykelrytter3.setAlder(23);
         cykelrytter3.setNationalitet("Italien");
-        cykelrytter3.setSamlettid(21432);
-        cykelrytter3.setBjergpoint(203);
-        cykelrytter3.setSpurtpoint(110);
+        cykelrytter3.setSamlettid(24432);
+        cykelrytter3.setBjergpoint(2);
+        cykelrytter3.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter3);
 
         Cykelrytter cykelrytter4 = new Cykelrytter();
@@ -64,9 +64,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter4.setNavn("Davide Ballerini");
         cykelrytter4.setAlder(27);
         cykelrytter4.setNationalitet("Italien");
-        cykelrytter4.setSamlettid(22432);
-        cykelrytter4.setBjergpoint(200);
-        cykelrytter4.setSpurtpoint(100);
+        cykelrytter4.setSamlettid(27432);
+        cykelrytter4.setBjergpoint(2);
+        cykelrytter4.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter4);
 
         Cykelrytter cykelrytter5 = new Cykelrytter();
@@ -74,9 +74,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter5.setNavn("Mattia Cattaneo");
         cykelrytter5.setAlder(31);
         cykelrytter5.setNationalitet("Italien");
-        cykelrytter5.setSamlettid(22432);
-        cykelrytter5.setBjergpoint(200);
-        cykelrytter5.setSpurtpoint(100);
+        cykelrytter5.setSamlettid(32432);
+        cykelrytter5.setBjergpoint(0);
+        cykelrytter5.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter5);
 
         Cykelrytter cykelrytter6 = new Cykelrytter();
@@ -84,9 +84,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter6.setNavn("Rémi Cavagna");
         cykelrytter6.setAlder(26);
         cykelrytter6.setNationalitet("Frankrig");
-        cykelrytter6.setSamlettid(22432);
-        cykelrytter6.setBjergpoint(200);
-        cykelrytter6.setSpurtpoint(100);
+        cykelrytter6.setSamlettid(24132);
+        cykelrytter6.setBjergpoint(0);
+        cykelrytter6.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter6);
 
         //--------------------------------Nyt hold-------------------------------------------
@@ -99,9 +99,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter7.setNavn("Alexandre Balmer");
         cykelrytter7.setAlder(22);
         cykelrytter7.setNationalitet("Schweiz");
-        cykelrytter7.setSamlettid(22432);
-        cykelrytter7.setBjergpoint(200);
-        cykelrytter7.setSpurtpoint(100);
+        cykelrytter7.setSamlettid(24432);
+        cykelrytter7.setBjergpoint(0);
+        cykelrytter7.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter7);
 
         Cykelrytter cykelrytter8 = new Cykelrytter();
@@ -109,9 +109,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter8.setNavn("Jack Bauer");
         cykelrytter8.setAlder(37);
         cykelrytter8.setNationalitet("New Zealand");
-        cykelrytter8.setSamlettid(22432);
-        cykelrytter8.setBjergpoint(200);
-        cykelrytter8.setSpurtpoint(100);
+        cykelrytter8.setSamlettid(26432);
+        cykelrytter8.setBjergpoint(4);
+        cykelrytter8.setSpurtpoint(6);
         cykelrytterRepository.save(cykelrytter8);
 
         Cykelrytter cykelrytter9 = new Cykelrytter();
@@ -119,9 +119,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter9.setNavn("Sam Bewley");
         cykelrytter9.setAlder(34);
         cykelrytter9.setNationalitet("New Zealand");
-        cykelrytter9.setSamlettid(22432);
-        cykelrytter9.setBjergpoint(200);
-        cykelrytter9.setSpurtpoint(100);
+        cykelrytter9.setSamlettid(24432);
+        cykelrytter9.setBjergpoint(0);
+        cykelrytter9.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter9);
 
         Cykelrytter cykelrytter10 = new Cykelrytter();
@@ -129,9 +129,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter10.setNavn("Kevin Colleoni");
         cykelrytter10.setAlder(22);
         cykelrytter10.setNationalitet("Italien");
-        cykelrytter10.setSamlettid(22432);
-        cykelrytter10.setBjergpoint(200);
-        cykelrytter10.setSpurtpoint(100);
+        cykelrytter10.setSamlettid(23432);
+        cykelrytter10.setBjergpoint(4);
+        cykelrytter10.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter10);
 
         Cykelrytter cykelrytter11 = new Cykelrytter();
@@ -139,9 +139,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter11.setNavn("Lawson Craddock");
         cykelrytter11.setAlder(30);
         cykelrytter11.setNationalitet("United States");
-        cykelrytter11.setSamlettid(22432);
-        cykelrytter11.setBjergpoint(200);
-        cykelrytter11.setSpurtpoint(100);
+        cykelrytter11.setSamlettid(25432);
+        cykelrytter11.setBjergpoint(0);
+        cykelrytter11.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter11);
 
         Cykelrytter cykelrytter12 = new Cykelrytter();
@@ -149,9 +149,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter12.setNavn("Christopher Juul-Jensen");
         cykelrytter12.setAlder(32);
         cykelrytter12.setNationalitet("Danmark");
-        cykelrytter12.setSamlettid(22234);
-        cykelrytter12.setBjergpoint(240);
-        cykelrytter12.setSpurtpoint(150);
+        cykelrytter12.setSamlettid(20131);
+        cykelrytter12.setBjergpoint(10);
+        cykelrytter12.setSpurtpoint(6);
         cykelrytterRepository.save(cykelrytter12);
 
         //--------------------------------Nyt hold-------------------------------------------
@@ -164,9 +164,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter13.setNavn("Rudy Barbier");
         cykelrytter13.setAlder(29);
         cykelrytter13.setNationalitet("Frankrig");
-        cykelrytter13.setSamlettid(22234);
-        cykelrytter13.setBjergpoint(240);
-        cykelrytter13.setSpurtpoint(150);
+        cykelrytter13.setSamlettid(27234);
+        cykelrytter13.setBjergpoint(2);
+        cykelrytter13.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter13);
 
         Cykelrytter cykelrytter14 = new Cykelrytter();
@@ -174,9 +174,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter14.setNavn("Sebastian Berwick");
         cykelrytter14.setAlder(22);
         cykelrytter14.setNationalitet("Australien");
-        cykelrytter14.setSamlettid(22234);
-        cykelrytter14.setBjergpoint(240);
-        cykelrytter14.setSpurtpoint(150);
+        cykelrytter14.setSamlettid(25234);
+        cykelrytter14.setBjergpoint(0);
+        cykelrytter14.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter14);
 
         Cykelrytter cykelrytter15 = new Cykelrytter();
@@ -184,9 +184,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter15.setNavn("Patrick Bevin");
         cykelrytter15.setAlder(31);
         cykelrytter15.setNationalitet("Australien");
-        cykelrytter15.setSamlettid(22234);
-        cykelrytter15.setBjergpoint(240);
-        cykelrytter15.setSpurtpoint(150);
+        cykelrytter15.setSamlettid(24234);
+        cykelrytter15.setBjergpoint(0);
+        cykelrytter15.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter15);
 
         Cykelrytter cykelrytter16 = new Cykelrytter();
@@ -194,9 +194,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter16.setNavn("Jenthe Biermans");
         cykelrytter16.setAlder(26);
         cykelrytter16.setNationalitet("Belgien");
-        cykelrytter16.setSamlettid(22232);
-        cykelrytter16.setBjergpoint(240);
-        cykelrytter16.setSpurtpoint(150);
+        cykelrytter16.setSamlettid(25232);
+        cykelrytter16.setBjergpoint(2);
+        cykelrytter16.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter16);
 
         Cykelrytter cykelrytter17 = new Cykelrytter();
@@ -205,8 +205,8 @@ public class InitData implements CommandLineRunner {
         cykelrytter17.setAlder(37);
         cykelrytter17.setNationalitet("Danmark");
         cykelrytter17.setSamlettid(21234);
-        cykelrytter17.setBjergpoint(250);
-        cykelrytter17.setSpurtpoint(190);
+        cykelrytter17.setBjergpoint(6);
+        cykelrytter17.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter17);
 
         Cykelrytter cykelrytter18 = new Cykelrytter();
@@ -214,9 +214,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter18.setNavn("Simon Clarke");
         cykelrytter18.setAlder(35);
         cykelrytter18.setNationalitet("Australien");
-        cykelrytter18.setSamlettid(22234);
-        cykelrytter18.setBjergpoint(120);
-        cykelrytter18.setSpurtpoint(120);
+        cykelrytter18.setSamlettid(26234);
+        cykelrytter18.setBjergpoint(0);
+        cykelrytter18.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter18);
 
         //--------------------------------Nyt hold-------------------------------------------
@@ -229,9 +229,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter19.setNavn("Mark Padun");
         cykelrytter19.setAlder(25);
         cykelrytter19.setNationalitet("Ukraine");
-        cykelrytter19.setSamlettid(22234);
-        cykelrytter19.setBjergpoint(240);
-        cykelrytter19.setSpurtpoint(150);
+        cykelrytter19.setSamlettid(27234);
+        cykelrytter19.setBjergpoint(8);
+        cykelrytter19.setSpurtpoint(4);
         cykelrytterRepository.save(cykelrytter19);
 
         Cykelrytter cykelrytter20 = new Cykelrytter();
@@ -239,9 +239,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter20.setNavn("Tom Scully");
         cykelrytter20.setAlder(32);
         cykelrytter20.setNationalitet("Australien");
-        cykelrytter20.setSamlettid(22234);
-        cykelrytter20.setBjergpoint(210);
-        cykelrytter20.setSpurtpoint(130);
+        cykelrytter20.setSamlettid(30234);
+        cykelrytter20.setBjergpoint(0);
+        cykelrytter20.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter20);
 
         Cykelrytter cykelrytter21 = new Cykelrytter();
@@ -249,9 +249,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter21.setNavn("Lachlan Morton");
         cykelrytter21.setAlder(30);
         cykelrytter21.setNationalitet("Australien");
-        cykelrytter21.setSamlettid(22234);
-        cykelrytter21.setBjergpoint(240);
-        cykelrytter21.setSpurtpoint(150);
+        cykelrytter21.setSamlettid(26234);
+        cykelrytter21.setBjergpoint(0);
+        cykelrytter21.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter21);
 
         Cykelrytter cykelrytter22 = new Cykelrytter();
@@ -259,9 +259,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter22.setNavn("Jens Keukeleire");
         cykelrytter22.setAlder(33);
         cykelrytter22.setNationalitet("Belgien");
-        cykelrytter22.setSamlettid(22232);
-        cykelrytter22.setBjergpoint(140);
-        cykelrytter22.setSpurtpoint(150);
+        cykelrytter22.setSamlettid(28232);
+        cykelrytter22.setBjergpoint(0);
+        cykelrytter22.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter22);
 
         Cykelrytter cykelrytter23 = new Cykelrytter();
@@ -269,9 +269,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter23.setNavn("Michael Valgren");
         cykelrytter23.setAlder(30);
         cykelrytter23.setNationalitet("Danmark");
-        cykelrytter23.setSamlettid(22134);
-        cykelrytter23.setBjergpoint(250);
-        cykelrytter23.setSpurtpoint(199);
+        cykelrytter23.setSamlettid(20134);
+        cykelrytter23.setBjergpoint(8);
+        cykelrytter23.setSpurtpoint(4);
         cykelrytterRepository.save(cykelrytter23);
 
         Cykelrytter cykelrytter24 = new Cykelrytter();
@@ -279,9 +279,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter24.setNavn("Magnus Cort");
         cykelrytter24.setAlder(29);
         cykelrytter24.setNationalitet("Danmark");
-        cykelrytter24.setSamlettid(21134);
-        cykelrytter24.setBjergpoint(220);
-        cykelrytter24.setSpurtpoint(230);
+        cykelrytter24.setSamlettid(22034);
+        cykelrytter24.setBjergpoint(6);
+        cykelrytter24.setSpurtpoint(4);
         cykelrytterRepository.save(cykelrytter24);
 
         //--------------------------------Nyt hold-------------------------------------------
@@ -294,9 +294,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter25.setNavn("Jakob Egholm");
         cykelrytter25.setAlder(24);
         cykelrytter25.setNationalitet("Danmark");
-        cykelrytter25.setSamlettid(20134);
-        cykelrytter25.setBjergpoint(240);
-        cykelrytter25.setSpurtpoint(220);
+        cykelrytter25.setSamlettid(20434);
+        cykelrytter25.setBjergpoint(4);
+        cykelrytter25.setSpurtpoint(8);
         cykelrytterRepository.save(cykelrytter25);
 
         Cykelrytter cykelrytter26 = new Cykelrytter();
@@ -304,9 +304,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter26.setNavn("Jon Aberasturi");
         cykelrytter26.setAlder(33);
         cykelrytter26.setNationalitet("Spanien");
-        cykelrytter26.setSamlettid(20134);
-        cykelrytter26.setBjergpoint(120);
-        cykelrytter26.setSpurtpoint(130);
+        cykelrytter26.setSamlettid(25134);
+        cykelrytter26.setBjergpoint(6);
+        cykelrytter26.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter26);
 
         Cykelrytter cykelrytter27 = new Cykelrytter();
@@ -314,9 +314,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter27.setNavn("Filippo Baroncini");
         cykelrytter27.setAlder(21);
         cykelrytter27.setNationalitet("Italien");
-        cykelrytter27.setSamlettid(20124);
-        cykelrytter27.setBjergpoint(110);
-        cykelrytter27.setSpurtpoint(120);
+        cykelrytter27.setSamlettid(28124);
+        cykelrytter27.setBjergpoint(4);
+        cykelrytter27.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter27);
 
         Cykelrytter cykelrytter28 = new Cykelrytter();
@@ -324,9 +324,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter28.setNavn("Asbjørn Hellemose");
         cykelrytter28.setAlder(23);
         cykelrytter28.setNationalitet("Danmark");
-        cykelrytter28.setSamlettid(21134);
-        cykelrytter28.setBjergpoint(240);
-        cykelrytter28.setSpurtpoint(250);
+        cykelrytter28.setSamlettid(21634);
+        cykelrytter28.setBjergpoint(2);
+        cykelrytter28.setSpurtpoint(8);
         cykelrytterRepository.save(cykelrytter28);
 
         Cykelrytter cykelrytter29 = new Cykelrytter();
@@ -334,9 +334,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter29.setNavn("Alexander Kamp");
         cykelrytter29.setAlder(28);
         cykelrytter29.setNationalitet("Danmark");
-        cykelrytter29.setSamlettid(22334);
-        cykelrytter29.setBjergpoint(260);
-        cykelrytter29.setSpurtpoint(210);
+        cykelrytter29.setSamlettid(22234);
+        cykelrytter29.setBjergpoint(8);
+        cykelrytter29.setSpurtpoint(6);
         cykelrytterRepository.save(cykelrytter29);
 
         Cykelrytter cykelrytter30 = new Cykelrytter();
@@ -344,9 +344,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter30.setNavn("Kenny Elissonde");
         cykelrytter30.setAlder(30);
         cykelrytter30.setNationalitet("Frankrig");
-        cykelrytter30.setSamlettid(21244);
-        cykelrytter30.setBjergpoint(150);
-        cykelrytter30.setSpurtpoint(180);
+        cykelrytter30.setSamlettid(25244);
+        cykelrytter30.setBjergpoint(0);
+        cykelrytter30.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter30);
 
 //--------------------------------Nyt hold-------------------------------------------
@@ -359,9 +359,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter31.setNavn("Asbjørn Kragh Andersen");
         cykelrytter31.setAlder(30);
         cykelrytter31.setNationalitet("Danmark");
-        cykelrytter31.setSamlettid(22334);
-        cykelrytter31.setBjergpoint(120);
-        cykelrytter31.setSpurtpoint(210);
+        cykelrytter31.setSamlettid(24334);
+        cykelrytter31.setBjergpoint(6);
+        cykelrytter31.setSpurtpoint(6);
         cykelrytterRepository.save(cykelrytter31);
 
         Cykelrytter cykelrytter32 = new Cykelrytter();
@@ -369,9 +369,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter32.setNavn("Søren Kragh Andersen");
         cykelrytter32.setAlder(27);
         cykelrytter32.setNationalitet("Danmark");
-        cykelrytter32.setSamlettid(22334);
-        cykelrytter32.setBjergpoint(270);
-        cykelrytter32.setSpurtpoint(210);
+        cykelrytter32.setSamlettid(21384);
+        cykelrytter32.setBjergpoint(4);
+        cykelrytter32.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter32);
 
         Cykelrytter cykelrytter33 = new Cykelrytter();
@@ -379,9 +379,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter33.setNavn("Marco Brenner");
         cykelrytter33.setAlder(19);
         cykelrytter33.setNationalitet("Danmark");
-        cykelrytter33.setSamlettid(22334);
-        cykelrytter33.setBjergpoint(260);
-        cykelrytter33.setSpurtpoint(210);
+        cykelrytter33.setSamlettid(21534);
+        cykelrytter33.setBjergpoint(2);
+        cykelrytter33.setSpurtpoint(4);
         cykelrytterRepository.save(cykelrytter33);
 
         Cykelrytter cykelrytter34 = new Cykelrytter();
@@ -389,9 +389,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter34.setNavn("Thymen Arensman");
         cykelrytter34.setAlder(22);
         cykelrytter34.setNationalitet("Frankrig");
-        cykelrytter34.setSamlettid(23134);
-        cykelrytter34.setBjergpoint(160);
-        cykelrytter34.setSpurtpoint(110);
+        cykelrytter34.setSamlettid(27134);
+        cykelrytter34.setBjergpoint(0);
+        cykelrytter34.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter34);
 
         Cykelrytter cykelrytter35 = new Cykelrytter();
@@ -399,9 +399,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter35.setNavn("Tim Naberman");
         cykelrytter35.setAlder(23);
         cykelrytter35.setNationalitet("Holland");
-        cykelrytter35.setSamlettid(24334);
-        cykelrytter35.setBjergpoint(120);
-        cykelrytter35.setSpurtpoint(130);
+        cykelrytter35.setSamlettid(25334);
+        cykelrytter35.setBjergpoint(0);
+        cykelrytter35.setSpurtpoint(2);
         cykelrytterRepository.save(cykelrytter35);
 
         Cykelrytter cykelrytter36 = new Cykelrytter();
@@ -409,9 +409,9 @@ public class InitData implements CommandLineRunner {
         cykelrytter36.setNavn("Alberto Dainese");
         cykelrytter36.setAlder(24);
         cykelrytter36.setNationalitet("Italien");
-        cykelrytter36.setSamlettid(23334);
-        cykelrytter36.setBjergpoint(120);
-        cykelrytter36.setSpurtpoint(110);
+        cykelrytter36.setSamlettid(23534);
+        cykelrytter36.setBjergpoint(0);
+        cykelrytter36.setSpurtpoint(0);
         cykelrytterRepository.save(cykelrytter36);
     }
 
